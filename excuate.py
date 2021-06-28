@@ -5,7 +5,7 @@ import pymysql
 
 host = "localhost"
 user_name = "root"
-password = "1qw23e00"
+password = ""
 database = "pokeDex"
 
 
@@ -23,7 +23,7 @@ def cal_pym(char):
 
 
 def cal_r(char):
-    #   ¸Ãº¯ÊıÊµÏÖÌáÈ¡ÏòÊı¾İ¿âµİ½»Óï¾äºóÊı¾İ¿â·µ»ØµÄÖµ£¨¶àÎª²éÑ¯Óï¾ä·µ»ØµÄ²éÑ¯½á¹ûµÈ£©
+    #   è¯¥å‡½æ•°å®ç°æå–å‘æ•°æ®åº“é€’äº¤è¯­å¥åæ•°æ®åº“è¿”å›çš„å€¼ï¼ˆå¤šä¸ºæŸ¥è¯¢è¯­å¥è¿”å›çš„æŸ¥è¯¢ç»“æœç­‰ï¼‰
     mydb = mysql.connector.connect(
         host=host,
         user=user_name,
@@ -39,7 +39,7 @@ def cal_r(char):
 
 
 def cal_nr(char):
-    #   ¸Ãº¯ÊıÊµÏÖÏòÊı¾İ¿âµİ½»Óï¾ä£¬²»·µ»ØÖµ£¨¶àÓÃÓÚÏòÊı¾İ¿âÌí¼Ó»òÉ¾³ıÔªËØ£©
+    #   è¯¥å‡½æ•°å®ç°å‘æ•°æ®åº“é€’äº¤è¯­å¥ï¼Œä¸è¿”å›å€¼ï¼ˆå¤šç”¨äºå‘æ•°æ®åº“æ·»åŠ æˆ–åˆ é™¤å…ƒç´ ï¼‰
     mydb = mysql.connector.connect(
         host=host,
         user=user_name,
